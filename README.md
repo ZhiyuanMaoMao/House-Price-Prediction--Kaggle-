@@ -73,8 +73,8 @@ Four models were trained and evaluated using
 |-------|-----------|---------|
 | Random Forest | n_estimators=200, random_state=42 | 0.1415 |
 | **Gradient Boosting** | **n_estimators=300, learning_rate=0.05, max_depth=4** | **0.1265** |
-| Ridge | alpha=10 | - |
-| Lasso | - | - |
+| Ridge | alpha=10 | 0.1495 |
+| Lasso | alpha=0.001 | 0.1482 |
 
 > RMSE is calculated on log-transformed SalePrice.
 > Lower RMSE = better performance.
